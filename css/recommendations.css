@@ -1,0 +1,119 @@
+/* Styling for recommendation-section */
+.recommendation-section {
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+
+/* Styling for book-container */
+.book-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Styling for book-card */
+.book-card {
+    width: calc(33.33% - 20px); /* Adjust the width as needed for 3 columns */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for book image */
+.book-card .image {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Styling for book info */
+.book-card .info {
+    padding: 10px;
+}
+
+/* Styling for book title */
+.book-card h3 {
+    font-size: 16px;
+    margin: 0;
+    color: #333;
+}
+
+/* Styling for book category, author, and publisher */
+.book-card p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #777;
+}
+
+/* Styling for book price */
+.book-card .price-qty {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Styling for quantity input */
+.book-card .qty {
+    width: 40px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Styling for Add to Cart button */
+.book-card .btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.book-card .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for average rating */
+.book-card .average {
+    font-size: 14px;
+    color: #f1c40f; /* Yellow color for ratings */
+    display: inline-block;
+    margin-top: 5px;
+}
+
+/* Styling for rating-reviews link */
+.book-card .rating-reviews a {
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+    margin-top: 5px;
+    display: block;
+}
+
+/* Styling for book description */
+.book-card .description {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* Styling for recommendation-section */
+.recommendation-section {
+    padding: 20px;
+    background-color: #f7f7f7;
+    float: left; /* Add this to float the div to the left */
+    width: 30%; /* Adjust the width as needed */
+}
+
+/* Styling for book-container */
+.book-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Rest of the CSS styles remain the same */

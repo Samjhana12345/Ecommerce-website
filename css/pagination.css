@@ -1,0 +1,12 @@
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+   
+
+
+}
+.pagination a{
+    margin-right: 7px;
+}
